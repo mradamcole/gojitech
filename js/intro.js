@@ -4,7 +4,7 @@ let logo = document.querySelector(".logo-header");
 let logoSpan = document.querySelectorAll(".logo");
 
 window.addEventListener("DOMContentLoaded", () => {
-    let introPause = 23;    //2300 for normal, 23 for debugging
+    let introPause = 2300;    //2300 for normal, 23 for debugging
     setTimeout(() => {
         logoSpan.forEach((span, idx) => {
             setTimeout(() => {
