@@ -37,7 +37,7 @@
     <link href="css/visible_in_viewport.css" rel="stylesheet">
     <style>
         /* The following overrides the default active color used in the navbar */
-        .navbar-nav > .active {
+        .navbar-nav>.active {
             color: #ddf !important;
         }
     </style>
@@ -334,6 +334,23 @@
         </div>
 
         <h4 class="navAnchor" id="contact">id:contact</h4>
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-12 col-md-6">
+                        <p class="mb-3" style="color: #fff; font-size: 140%; font-weight: bold;">Contact gojiTech</p>
+                        <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p> -->
+                        <div class="position-relative w-100">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" value="We're looking forward to hearing from you. Send an email to info@gojitechsystems.com" disabled>
+                            <button type="button" class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2" onClick="window.location='mailto:info@gojitechsystems.com'">Send us an email</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
         <!-- Copyright Start -->
         <div class="container-fluid bg-secondary text-body copyright py-2">
             <div class="container">
@@ -348,7 +365,6 @@
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
